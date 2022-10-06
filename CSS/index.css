@@ -1,0 +1,372 @@
+button {
+    border: none;
+   }
+   a{
+       text-decoration: none;
+       color: white;
+   }
+   
+   
+   #navbarNav{
+       font-family: Roboto;
+       font-size: 18px;
+      
+   }
+   
+   #header-background{
+       position:fixed;
+       top: 0;
+       z-index: 10;
+   }
+   
+   .login {
+       margin-top:14px;
+   }
+   .login:hover{
+       color: red;
+       text-decoration: underline;
+   }
+   
+   #navbarNav ul li a:hover{
+       text-decoration: underline;
+       color: rgb(191, 84, 48);
+       transition: 1s;
+   }
+   
+   
+   .login {
+       color: black;
+       font-size: 18px;
+       font-family: Roboto;
+       margin-right:40px;
+       
+   }
+   
+   .signup {
+       background-color: black;
+       width: 137px;
+       border-bottom: 16px;
+       height: 60px;
+       border-radius: 16px;
+       font-size: 19px;
+       font-family: Roboto;
+       margin-right: 20px;
+   }
+   
+   .vector{
+       width: 20px;
+       height: 20px;
+   }
+   
+   #first-box {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   }
+   
+   
+   .second-box {
+       width: 48vw;
+       height: 600px;
+   }
+   #second-box{
+      object-fit: cover;
+      max-width: 100%;
+   }
+   
+   .clock {
+       width: 26.6px;
+       border-radius: 50%;
+       margin-left: 380px;
+   }
+   .vector-33{
+      width: 25px;
+      height: 25px;
+      
+   }
+   .height{
+       background: #F8F8FA;
+       height: 550px;
+   }
+   @media(min-width:768.02px){
+       .height{
+           width: 90%;
+           margin: auto;
+       }
+   }
+   #explore{
+       width:300px;
+       font-size: 18px;
+   }
+   .portfolio h1 {
+       font-size: 72px;
+       font-weight: 700;
+      
+   }
+   
+   .portfolio button{
+       width: 218px;
+       height: 70px;
+       background: #151515;
+       color: white;
+       border-radius: 16px;
+       margin-top: 25px;
+   
+   }
+   
+   .Hero {
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 48px;
+   line-height: 72px;
+   }
+   .second-Hero {
+   font-family: 'Poppins';
+   font-size: 16px;
+   line-height: 22px;
+   color: #6C6C6C;
+   width:50%;
+   margin: auto;
+   }
+   
+   .iphone-screen {
+   width: 337px;
+   height: 529px;
+   }
+   .download {
+   width: 264px;
+   height: 105px;
+   font-family: 'Poppins';
+   font-weight: 600;
+   font-size: 45px;
+   line-height: 46px;
+   color: #000000;
+   }
+   .image{
+      width: 168px;
+      height: 163.76px;
+   }
+   
+   .hero-wallet {
+       font-size: 28px;
+       font-weight: bold;
+   }
+   .apple-store{
+   box-sizing: border-box;
+   width: 279px;
+   height: 100px;
+   border: 1.5px solid #DBDBDB;
+   border-radius: 25px;
+   background-color: white;
+   
+   }
+   .play-store{
+       box-sizing: border-box;
+       width: 279px;
+       height: 100px;
+       border: 1.5px solid #DBDBDB;
+       border-radius: 25px; 
+       background-color: white;
+   }
+   .border{
+   margin-top: 30px;
+   height: 2px;
+   background: #F0F0F0;
+   }
+   
+   .play-stores{
+       box-sizing: border-box;
+       width: 279px;
+       height: 100px;
+       border: 1.5px solid #DBDBDB;
+       border-radius: 25px; 
+       background-color: white;
+       margin-top: 30px;
+   }
+   
+   .apple-stores{
+       box-sizing: border-box;
+       width: 279px;
+       height: 100px;
+       border: 1.5px solid #DBDBDB;
+       border-radius: 25px;
+       background-color: white;
+       margin-top: 30px;
+       }
+       .get-started{
+       width: 190px;
+       height: 70px;
+       border: 1.6px solid #6C6C6C;
+       border-radius: 16px;
+       background-color: white;
+       font-family: 'Roboto';
+       font-weight: 500;
+       font-size: 20px;
+       transition: all 2s;
+    }
+    .get-started:hover {
+        background-color: green;
+        color: white;
+     
+    }
+    .News-letter{
+    font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 40px;
+    }
+    .Mobile {
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   color: #6C6C6C;
+    }
+    .input-email{
+       width: 50%;
+        height: 81px;
+        font-size: 17px;
+        border: none  !important;
+        background: #FCFCFC;
+        border: 1.5px solid #F5F5F5;
+        border-radius: 16px;
+        padding-left: 38px;
+    }
+   #get-start{
+    width: 197px;
+   height: 81px;
+   background: #151515;
+   border-radius: 16px;
+   margin-left: 25px;
+   }
+   @media (max-width:768px) {
+       #get-start {
+           display: none;
+       }
+       .input-email {
+           width: 100%;
+       }
+   }
+   
+   .footer-section{
+       background: #F8F8FA;
+       /* min-height: 80vh; */
+       width: 90vw;
+       margin: 0px auto;
+   
+   }
+   
+   h3 {
+   font-family: 'Gosha Sans';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 28px;
+   margin-right: 150px;
+   }
+    .Besnik-first {
+   font-family: 'Roboto';
+   font-weight: 400;
+   font-size: 16px;
+   width: 232px;
+   height: 84px;
+   margin: auto;
+    }
+    .Besnik-col{
+   height: 18px;
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 18px;
+   line-height: 18px;
+   color: #333333;
+    }
+    
+    .About {
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 16px;
+   color: #666666;
+    }
+   
+    .About:hover{
+       text-decoration: underline;
+       color: rgb(191, 84, 48);
+    }
+   
+    @media (max-width:768px){
+       .Besnik-col {
+           margin-top: 90px;
+       }
+    }
+    .Support {
+   Font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 16px;
+   color: #666666;
+   cursor: pointer;
+    }
+    .Support:hover{
+       text-decoration: underline;
+       color: rgb(191, 84, 48);
+    }
+   
+   .Last-session{
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 13px;
+   line-height: 15px;
+   letter-spacing: -0.01em;
+   color: #666666;
+   cursor: pointer;
+   }
+   
+   .Last-session:hover {
+       text-decoration: underline;
+   }
+   
+   .created{
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 13px;
+   line-height: 15px;
+   color: #666666;
+   }
+   
+   
+   
+    @media (min-width:768.02px){
+       .Last-session{
+           margin-right: 300px;
+       }
+       .created{
+           margin-left: 300px;
+       }
+      
+    }
+   
+   
+   
+    
+   @media(max-width:482px)  {
+       .second-box {
+       width: 100%;
+       }
+       .play-store{
+           margin-top: 30px;
+       }
+       #second-box {
+           max-width: 100%!important;
+       }
+       .height{
+           height: auto!important;
+       }
+   }
+   
+   
